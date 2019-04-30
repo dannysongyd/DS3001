@@ -62,3 +62,7 @@ def result():
 
     # table = a.to_html(classes='data', header='true')
     return render_template("result.html", city=to_predict_list[0], type=to_predict_list[1], review=comments_result, stars=stars_result)
+
+
+if __name__ == '__main__':
+    app.run()
