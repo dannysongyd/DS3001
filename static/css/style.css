@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+
+#cover {
+  background: center center no-repeat;
+  background: #c04848; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #480048,
+    #c04848
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #480048,
+    #c04848
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#cover-caption {
+  width: 100%;
+}
